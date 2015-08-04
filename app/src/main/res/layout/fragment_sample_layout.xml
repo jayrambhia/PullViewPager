@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/header_view"
+        android:text="24 July"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/recyclerview"
+        android:layout_marginTop="112dp"/>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:layout_gravity="center">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_bike"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@drawable/ic_directions_bike_black_48dp"
+            android:drawablePadding="18dp"
+            android:layout_marginBottom="12dp"
+            android:text="21 Mins"/>
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_walk"
+            android:layout_marginTop="12dp"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@drawable/ic_directions_walk_black_48dp"
+            android:drawablePadding="18dp"
+            android:text="42 Mins"/>
+
+    </LinearLayout>-->
+
+</FrameLayout>
